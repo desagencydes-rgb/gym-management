@@ -56,14 +56,16 @@ javac -d bin -sourcepath src src/gym/Main.java
 java -cp bin gym.Main
 ```
 
-📂 Project Structure
-Plaintext
+## 📂 Project Structure
 
+```bash
 src/gym/
 ├── model/           # Domain Entities (The "Truth")
 ├── repository/      # Data Persistence (The "Store")
 ├── service/         # Business Logic (The "Brain")
 ├── ui/              # User Interface (The "Face")
 └── Main.java        # Application Bootstrapper
-📜 License
-Proprietary Software. Developed by D.E.S Agency R&D. Technical demonstration of "Pure Java" architecture.
+```
+
+## 📜 License
+Proprietary Software. Developed by **D.E.S Agency R&D**. Technical demonstration of "Pure Java" architecture.
